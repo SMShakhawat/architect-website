@@ -62,6 +62,42 @@ nav li a {
     margin-top: 20px;
     width: 100%;
 }
+/* main style */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* team style */
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-container img{
+    width: 100%;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-content{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.team-title{
+    font-size: 2.8rem;
+}
+.team-title .quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.team-feature{
+    color: tomato;
+    font-weight: 700;
+}
+.of-our{
+    font-weight: 700;
+}
 
 /* responsive style */
 
