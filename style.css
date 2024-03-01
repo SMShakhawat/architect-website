@@ -98,6 +98,32 @@ main{
 .of-our{
     font-weight: 700;
 }
+/* feature section style */
+.features{
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+}
+.features .section-title{
+    border-left: 5px solid tomato;
+    padding-left: 20px;
+}
+
+.feature-content .card{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.ten-year{
+    border-radius: 8px;
+    color: white;
+    background-color: orange;
+    width: 342px;
+}
+.ten-year h2{
+    font-size: 4rem;
+    padding: 40px;
+}
 /* facts section */
 .facts-card-container{
     display: flex;
